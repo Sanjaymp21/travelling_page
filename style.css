@@ -1,0 +1,132 @@
+
+body{
+    background-image: url(/new.html/src/img.html.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.logo{
+    font-size: x-large;
+    text-decoration: none;
+    padding-left: 6rem;
+    display: inline-flex;
+    color: white;
+}
+#limit{
+    font-size: xx-large;
+    text-align: center;
+    font-style: italic;
+    color: brown;
+}
+.text{
+    text-align: center;
+    font-style: italic;
+    color: brown;
+}
+#log{
+    font-size: xx-large;
+    text-align: center;
+    font-style: italic;
+    color:#f3f4f9 ;
+    background-color: rgb(10, 5, 87);
+}
+.paris{
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-left: 50px;
+}
+ul{
+    list-style: none;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;  /* logo left, links right */
+    align-items: center;
+    padding: 15px 50px;
+    background-color: rgb(0, 0, 0);
+    position: sticky;
+    top: 0px;
+}
+
+.logo h1 {
+    color: white;
+    margin: 0;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-links li a:hover {
+    color: gold;
+}
+.intro{
+    border: 3px solid ;
+    padding: 20px;
+    border-radius: 18px;
+}
+.cont{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.package-container{
+    display: flex;
+    justify-content: space-around;
+}
+.package-card{
+    background-color: aliceblue;
+}
+#pack{
+    font-size: xx-large;
+    text-align: center;
+    font-style: italic;
+    color:#f3f4f9 ;
+    background-color: rgb(10, 5, 87);
+}
+.container div {
+    overflow: hidden;   /* important */
+}
+
+.container img {
+    transition: transform 0.2s ease;
+    border-radius: 10px;
+}
+
+.container img:hover {
+    transform: scale(1.1);
+}
+.package-card {
+    transition: transform 0.4s ease;
+}
+
+.package-card:hover {
+    transform: scale(1.1);
+}
+
+.contact{
+    text-align: center;
+    background-color: rgb(10, 5, 87);
+    color: #f3f4f9;
+}
+.contact-info{
+    text-align: center;
+    border: 2px solid grey;
+    margin-left: 20%;
+    margin-right: 20%;
+}
